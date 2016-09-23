@@ -18,7 +18,7 @@ public class Application {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World! Hello Bone Boot!";
+        return "Hello World! Hello Bone Boot! Hot swap success !";
     }
 
     public static void main(String[] args) throws Exception {
